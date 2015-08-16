@@ -7,6 +7,7 @@ Or simply run 'mvn install'
 
 For usage:
 
+```java
 String name = "Tom Cruise";
 String location = "Los Angeles";
 
@@ -16,3 +17,4 @@ ArrayList<String> latestTweets = new TwitterClient(CONSUMER_KEY, CONSUMER_SECRET
 for (String latestTweet : latestTweets) {
     System.out.println(latestTweet);
 }
+```
